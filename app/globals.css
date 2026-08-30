@@ -275,7 +275,7 @@ html[data-theme="trash"] body {
 [data-theme="trash"] a.menu-btn:hover,
 [data-theme="trash"] a.bevel-out:hover,
 [data-theme="trash"] a.pixel-frame-link:hover,
-[data-theme="trash"] button:hover {
+[data-theme="trash"] button:hover:not(.theme-switch-btn) {
   animation:
     trash-shake 0.07s infinite,
     trash-rainbow 2.2s infinite !important;

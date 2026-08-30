@@ -285,7 +285,7 @@ export function TrashSite({ onSwitchTheme }: { onSwitchTheme: () => void }) {
       <button
         type="button"
         onClick={onSwitchTheme}
-        className="fixed right-3 bottom-3 z-50 bevel-out bg-[#ffff00] px-2 py-1 text-xs font-black text-black"
+        className="theme-switch-btn fixed right-3 bottom-3 z-[100] bevel-out bg-[#ffff00] px-2 py-1 text-xs font-black text-black"
       >
         СМЕНИТЬ РЕЖИМ!!!
       </button>
