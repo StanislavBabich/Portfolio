@@ -77,7 +77,7 @@ export function CyberSite({ onSwitchTheme }: { onSwitchTheme: () => void }) {
             <p className="mb-5 max-w-2xl text-sm leading-7 text-[#cfcfcf] sm:text-base">
               Специализируюсь на высокопроизводительных веб-приложениях и
               масштабируемой бэкенд-архитектуре. Собираю отказоустойчивые
-              SPA/SSR на React и Next.js и микросервисы на Go. Фокус — чистый
+              SPA/SSR на React и Next.js и микросервисы на Go. Фокус - чистый
               код, скорость загрузки и аккуратная работа с данными.
             </p>
             <div className="flex flex-wrap gap-2">
@@ -177,13 +177,13 @@ export function CyberSite({ onSwitchTheme }: { onSwitchTheme: () => void }) {
               {
                 name: "LANDING PAGE",
                 price: "от 8 000 ₽",
-                meta: "Срок: 3–5 дней",
+                meta: "Срок: 3-5 дней",
                 desc: "Адаптив, SEO, анимации",
               },
               {
                 name: "MULTI-PAGE SITE",
                 price: "от 18 000 ₽",
-                meta: "Срок: 5–10 дней",
+                meta: "Срок: 5-10 дней",
                 desc: "Структура, админка, скорость",
               },
               {
@@ -232,7 +232,7 @@ export function CyberSite({ onSwitchTheme }: { onSwitchTheme: () => void }) {
             </li>
             <li className="border border-white/10 px-3 py-3">
               🎨 Макет в Figma / Sketch / Photoshop (при наличии). Если дизайна
-              нет — разработаем с нуля.
+              нет - разработаем с нуля.
             </li>
             <li className="border border-white/10 px-3 py-3">
               🖼 Текстовые материалы, логотипы, медиа-файлы и брендинг, которые
@@ -243,14 +243,14 @@ export function CyberSite({ onSwitchTheme }: { onSwitchTheme: () => void }) {
             </li>
           </ul>
           <p className="m-0 border-l-2 border-[#ff0033] pl-3 text-sm leading-6 text-[#e8e8e8]">
-            ⚠️ Если у вас нет готового ТЗ или макета — не переживайте. Напишите
+            ⚠️ Если у вас нет готового ТЗ или макета - не переживайте. Напишите
             мне, мы детально обсудим все нюансы вашего проекта, сформируем
             требования и подберем оптимальное техническое решение.
           </p>
         </section>
 
         <footer className="border-t border-white/10 pt-6 pb-10 text-xs text-[#777]">
-          Stanislav Babich — full-stack web development
+          Stanislav Babich - full-stack web development
         </footer>
       </div>
 

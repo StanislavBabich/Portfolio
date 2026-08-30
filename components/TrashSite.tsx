@@ -43,7 +43,7 @@ export function TrashSite({ onSwitchTheme }: { onSwitchTheme: () => void }) {
 
       <p className="m-0 bg-black py-1 text-center text-sm font-bold text-yellow-300">
         🔥 САЙТ ОПТИМИЗИРОВАН ДЛЯ БРАУЗЕРА INTERNET EXPLORER 6.0 И РАЗРЕШЕНИЯ
-        ЭКРАНА 800х600!!! ЕСЛИ У ВАС ДИЛАП — ПОДОЖДИТЕ ЗАГРУЗКИ ВСЕХ ГИФОК!!!{" "}
+        ЭКРАНА 800х600!!! ЕСЛИ У ВАС ДИЛАП - ПОДОЖДИТЕ ЗАГРУЗКИ ВСЕХ ГИФОК!!!{" "}
         <span className="blink">NEW!!!</span> 🔥
       </p>
 
@@ -76,12 +76,12 @@ export function TrashSite({ onSwitchTheme }: { onSwitchTheme: () => void }) {
 
         <div className="flex flex-col gap-3 p-3 lg:grid lg:grid-cols-[300px_1fr] lg:items-start lg:gap-6">
           <aside className="flex flex-col gap-3 lg:sticky lg:top-4">
-            <Win95Chrome title="ВЕБКАМ 320x240 — LIVE!!!">
+            <Win95Chrome title="ВЕБКАМ 320x240 - LIVE!!!">
               <div className="webcam-frame">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="/stas-mega-hacker.jpg"
-                  alt="Станислав Бабич — Мега-Хакер-2007 показывает класс"
+                  alt="Станислав Бабич - Мега-Хакер-2007 показывает класс"
                 />
               </div>
               <p className="mt-2 mb-0 text-center text-xs font-bold">
@@ -124,7 +124,7 @@ export function TrashSite({ onSwitchTheme }: { onSwitchTheme: () => void }) {
           </aside>
 
           <div className="flex min-w-0 flex-col gap-3">
-            <Win95Chrome title="readme_обо_мне.txt — НЕ УДАЛЯТЬ!!!">
+            <Win95Chrome title="readme_обо_мне.txt - НЕ УДАЛЯТЬ!!!">
               <div id="about" className="bevel-in bg-[#ffffcc] p-3 text-[15px] leading-snug">
                 <p className="mt-0 mb-2">
                   <span className="hot-badge">ОБО МНЕ</span>{" "}
@@ -206,14 +206,14 @@ export function TrashSite({ onSwitchTheme }: { onSwitchTheme: () => void }) {
             <Win95Chrome title="ЦЕННИК_ОТ_СТАСА.XLS">
               <div id="pricing" className="space-y-2">
                 <div className="bevel-in bg-[#ffffcc] p-2">
-                  <b className="block text-[#000080]">ЧИСТО ЛЕНДОС ДЛЯ ПАЦАНОВ — 3 000 руб + жигулевское</b>
+                  <b className="block text-[#000080]">ЧИСТО ЛЕНДОС ДЛЯ ПАЦАНОВ - 3 000 руб + жигулевское</b>
                   <span className="text-xs">
                     Сделаю за ночь, конкуренты умрут от зависти
                   </span>
                 </div>
                 <div className="bevel-in bg-[#ffffcc] p-2">
                   <b className="block text-[#000080]">
-                    МЕГАПОРТАЛ ИЗ 100 СТРАНИЦ — 10 000 руб
+                    МЕГАПОРТАЛ ИЗ 100 СТРАНИЦ - 10 000 руб
                   </b>
                   <span className="text-xs">
                     Впихну всё: гостевую книгу, погоду, котиков, твои фотки
@@ -221,7 +221,7 @@ export function TrashSite({ onSwitchTheme }: { onSwitchTheme: () => void }) {
                 </div>
                 <div className="bevel-in bg-[#ffffcc] p-2">
                   <b className="block text-[#800000]">
-                    ЭЛИТНЫЙ САЙТ НА РЕАКТИВНОМ ДВИЖКЕ — 20 000 руб
+                    ЭЛИТНЫЙ САЙТ НА РЕАКТИВНОМ ДВИЖКЕ - 20 000 руб
                   </b>
                   <span className="text-xs">
                     Быстрее чем пуля, код без ГМО111!!!!
@@ -249,14 +249,14 @@ export function TrashSite({ onSwitchTheme }: { onSwitchTheme: () => void }) {
                   ШТУКИ ИЗ ИНТЕРНЕТА!!
                 </p>
                 <p className="my-2">
-                  🎨 ЕСЛИ ЕСТЬ РИСУНОК В ФИГМЕ ИЛИ НА САЛФЕТКЕ — ТАЩИТЕ СЮДА,
+                  🎨 ЕСЛИ ЕСТЬ РИСУНОК В ФИГМЕ ИЛИ НА САЛФЕТКЕ - ТАЩИТЕ СЮДА,
                   ВСЁ СКОПИРУЮ В ЛУЧШЕМ ВИДЕ!!
                 </p>
                 <p className="my-2">
                   💰 ГЛАВНОЕ ИМЕТЬ ХОРОШЕЕ НАСТРОЕНИЕ И БЫТЬ НА СВЯЗИ!!!
                 </p>
                 <p className="mb-0 text-xs text-[#800000]">
-                  P.S. ЕСЛИ НИЧЕГО ЭТОГО НЕТ И ВЫ ВООБЩЕ НЕ ШАРИТЕ — НЕ
+                  P.S. ЕСЛИ НИЧЕГО ЭТОГО НЕТ И ВЫ ВООБЩЕ НЕ ШАРИТЕ - НЕ
                   ПАРИТЕСЬ!! ПИШИТЕ В ТЕЛЕГУ, ВСЁ ОБКАШЛЯЕМ, ВСЕ НЮАНСЫ
                   ОБГОВОРИМ И СДЕЛАЕМ ПО КРАСОТЕ111!!!!
                 </p>
@@ -269,7 +269,7 @@ export function TrashSite({ onSwitchTheme }: { onSwitchTheme: () => void }) {
           <p className="mt-0 mb-2 text-sm font-bold">
             Сайт сделан ручками в Блокноте под пиво и музыку Король и Шут!!! Все
             права защищены законом 2006 года и пацанским словом!!! Кто скопирует
-            код — тот редиска!!!
+            код - тот редиска!!!
           </p>
           <p className="m-0 text-xs">
             <a href="#about" className="text-link text-cyan-300">

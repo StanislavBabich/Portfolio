@@ -15,7 +15,7 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Stanislav Babich — Web Development / Cybersecurity",
+  title: "Stanislav Babich - Web Development / Cybersecurity",
   description:
     "Portfolio of Stanislav Babich. Full-stack development and security-minded engineering.",
 };
