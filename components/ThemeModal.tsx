@@ -19,17 +19,17 @@ export function ThemeModal({
         <div className="flex flex-col gap-3">
           <button
             type="button"
-            onClick={() => onPick("trash")}
-            className="border border-yellow-400/40 bg-[#1a1200] px-4 py-3 text-left text-sm font-semibold text-yellow-300 transition hover:border-yellow-300 hover:bg-[#2a1c00]"
-          >
-            🔥 RETRO PORTFOLIO (Web 1.0 Режим)
-          </button>
-          <button
-            type="button"
             onClick={() => onPick("cyber")}
             className="border border-[#ff0033]/40 bg-[#140006] px-4 py-3 text-left text-sm font-semibold text-[#ff4d6d] transition hover:border-[#ff0033] hover:bg-[#22000a]"
           >
             💻 PREMIUM DESIGN (Современный Режим)
+          </button>
+          <button
+            type="button"
+            onClick={() => onPick("trash")}
+            className="border border-yellow-400/40 bg-[#1a1200] px-4 py-3 text-left text-sm font-semibold text-yellow-300 transition hover:border-yellow-300 hover:bg-[#2a1c00]"
+          >
+            🔥 RETRO PORTFOLIO (Web 1.0 Режим)
           </button>
         </div>
       </div>

@@ -44,4 +44,3 @@ export const CONTACTS = [
 ] as const;
 
 export type ThemeName = "trash" | "cyber";
-export const THEME_KEY = "portfolio-visual-mode";
