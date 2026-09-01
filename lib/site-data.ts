@@ -20,6 +20,13 @@ export const PROJECTS = [
       "https://api.microlink.io/?url=https://buy-hryunyasha.vercel.app&screenshot=true&meta=false&embed=screenshot.url",
     alt: "превью сайта Хрюняша",
   },
+  {
+    href: "https://vista-lore-6jx7.vercel.app/",
+    title: "VISTA LORE",
+    preview:
+      "https://api.microlink.io/?url=https://vista-lore-6jx7.vercel.app/&screenshot=true&meta=false&embed=screenshot.url",
+    alt: "превью сайта Vista Lore",
+  },
 ] as const;
 
 export const CONTACTS = [
