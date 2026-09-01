@@ -27,6 +27,12 @@ export const PROJECTS = [
       "https://api.microlink.io/?url=https://vista-lore-6jx7.vercel.app/&screenshot=true&meta=false&embed=screenshot.url",
     alt: "превью сайта Vista Lore",
   },
+  {
+    href: "https://stellar-burgers-sooty.vercel.app/",
+    title: "STELLAR BURGERS",
+    preview: "/stellar-burgers-preview.png",
+    alt: "превью сайта Stellar Burgers",
+  },
 ] as const;
 
 export const CONTACTS = [
