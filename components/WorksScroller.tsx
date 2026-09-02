@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 
 const GAP = 16;
+const HOVER_LIFT = 16;
 
 function visibleLimit(width: number) {
   if (width >= 1024) return 6;
@@ -91,8 +92,8 @@ export function WorksScroller({
     <div
       ref={boxRef}
       id="works"
-      className={`${className} pr-2 ${scrolling ? "overflow-y-auto" : "overflow-visible"}`}
-      style={scrolling ? { maxHeight } : undefined}
+      className={`${className} pt-4 pr-2 ${scrolling ? "overflow-y-auto" : "overflow-visible"}`}
+      style={scrolling ? { maxHeight: maxHeight + HOVER_LIFT } : undefined}
     >
       {children}
     </div>
