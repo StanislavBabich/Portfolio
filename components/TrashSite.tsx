@@ -163,7 +163,7 @@ export function TrashSite({ onSwitchTheme }: { onSwitchTheme: () => void }) {
                       <img
                         src={project.preview}
                         alt={project.alt}
-                        className="pixel-shot aspect-video h-auto w-full object-cover object-top"
+                        className="pixel-shot aspect-video h-auto w-full object-contain object-top"
                       />
                     </a>
                   </Win95Chrome>

@@ -133,7 +133,7 @@ export function CyberSite({ onSwitchTheme }: { onSwitchTheme: () => void }) {
                   <img
                     src={project.preview}
                     alt={project.alt}
-                    className="aspect-video h-auto w-full rounded-lg object-cover object-top"
+                    className="aspect-video h-auto w-full rounded-lg bg-black object-contain object-top"
                   />
                 </a>
               ))}

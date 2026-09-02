@@ -448,8 +448,9 @@ html[data-theme="trash"] body {
   width: 100%;
   height: auto;
   aspect-ratio: 16 / 9;
-  object-fit: cover;
+  object-fit: contain;
   object-position: top center;
+  background: #000;
   border: 4px solid #000;
   outline: 3px solid #fff;
   box-shadow:
