@@ -1,5 +1,33 @@
 export const PROJECTS = [
   {
+    href: "https://mesto-project-ff-theta.vercel.app/",
+    title: "MESTO",
+    preview:
+      "https://api.microlink.io/?url=https://mesto-project-ff-theta.vercel.app/&screenshot=true&meta=false&embed=screenshot.url",
+    alt: "превью сайта Mesto",
+  },
+  {
+    href: "https://skill-swap-45-2-bv4v.vercel.app",
+    title: "SKILL SWAP",
+    preview:
+      "https://api.microlink.io/?url=https://skill-swap-45-2-bv4v.vercel.app&screenshot=true&meta=false&embed=screenshot.url",
+    alt: "превью сайта Skill Swap",
+  },
+  {
+    href: "https://sun-stricke-eyli.vercel.app/",
+    title: "SUNSTRIKE",
+    preview:
+      "https://api.microlink.io/?url=https://sun-stricke-eyli.vercel.app/&screenshot=true&meta=false&embed=screenshot.url",
+    alt: "превью сайта SunStrike",
+  },
+  {
+    href: "https://film-react-nest-4ugx.vercel.app/",
+    title: "FILM!",
+    preview:
+      "https://api.microlink.io/?url=https://film-react-nest-4ugx.vercel.app/&screenshot=true&meta=false&embed=screenshot.url",
+    alt: "превью сайта Film!",
+  },
+  {
     href: "https://lumen-two-amber.vercel.app",
     title: "LUMEN TWO AMBER",
     preview:
