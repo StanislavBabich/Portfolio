@@ -1,5 +1,5 @@
-import { ThemeApp } from "@/components/ThemeApp";
+import { CyberSite } from "@/components/CyberSite";
 
 export default function Home() {
-  return <ThemeApp />;
+  return <CyberSite />;
 }

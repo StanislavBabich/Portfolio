@@ -1,10 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Mail, Phone, Send } from "lucide-react";
 import { CyberStage } from "@/components/CyberStage";
 import { WorksScroller } from "@/components/WorksScroller";
-import { CONTACTS, PROJECTS } from "@/lib/site-data";
+import { PROJECTS } from "@/lib/site-data";
 
 const SUBLINE =
   "Building high-performance web applications, resilient systems, and pixel-perfect user interfaces.";
@@ -30,13 +29,7 @@ function TypeLine({ text }: { text: string }) {
   );
 }
 
-const ICONS = {
-  mail: Mail,
-  phone: Phone,
-  telegram: Send,
-};
-
-export function CyberSite({ onSwitchTheme }: { onSwitchTheme: () => void }) {
+export function CyberSite() {
   return (
     <div className="relative min-h-screen bg-[#0a0a0a] text-[#f2f2f2]">
       <CyberStage />
@@ -73,29 +66,27 @@ export function CyberSite({ onSwitchTheme }: { onSwitchTheme: () => void }) {
             <p className="mb-2 font-mono text-[11px] tracking-[0.24em] text-[#ff0033] uppercase">
               ABOUT_ME //
             </p>
-            <h2 className="mt-0 mb-4 text-2xl font-medium">Обо мне</h2>
             <p className="mb-5 max-w-2xl text-sm leading-7 text-[#cfcfcf] sm:text-base">
-              Специализируюсь на высокопроизводительных веб-приложениях и
-              масштабируемой бэкенд-архитектуре. Собираю отказоустойчивые
-              SPA/SSR на React и Next.js и микросервисы на Go. Фокус - чистый
-              код, скорость загрузки и аккуратная работа с данными.
+              I am a highly efficient Full-Stack Developer specializing in rapid
+              web development. I build fast, fully responsive landing pages and
+              web applications using React, Next.js, and Node.js/Go. My main
+              focus is execution speed, clean layout, and delivering
+              ready-to-launch business products in short timeframes.
             </p>
             <div className="flex flex-wrap gap-2">
               {[
                 "JavaScript (ES6+)",
                 "TypeScript",
-                "Go",
                 "React",
                 "Next.js",
-                "Angular",
                 "Node.js",
+                "Go",
+                "Python",
                 "PostgreSQL",
                 "MongoDB",
                 "REST / GraphQL",
-                "Docker",
                 "Git",
                 "Vercel",
-                "Linux",
               ].map((tech) => (
                 <span
                   key={tech}
@@ -142,110 +133,35 @@ export function CyberSite({ onSwitchTheme }: { onSwitchTheme: () => void }) {
         </section>
 
         <section
-          id="matrix"
-          className="mb-12 border border-white/10 bg-[#111]/80 p-6"
-        >
-          <p className="mb-4 font-mono text-[11px] tracking-[0.24em] text-[#ff0033] uppercase">
-            Secure channel
-          </p>
-          <h2 className="mt-0 mb-5 text-2xl font-medium">Контакты</h2>
-          <div className="flex flex-col gap-3">
-            {CONTACTS.map((contact) => {
-              const Icon = ICONS[contact.kind];
-              const external = contact.href.startsWith("http");
-              return (
-                <a
-                  key={contact.label}
-                  href={contact.href}
-                  {...(external ? { target: "_blank", rel: "noreferrer" } : {})}
-                  className="flex items-center gap-3 border border-white/10 px-4 py-3 text-sm text-[#e8e8e8] no-underline transition-colors duration-300 hover:border-[#ff0033] hover:text-[#ff0033]"
-                >
-                  <Icon size={16} strokeWidth={1.6} />
-                  {contact.label}
-                </a>
-              );
-            })}
-          </div>
-        </section>
-
-        <section id="pricing" className="mb-12">
-          <p className="mb-4 font-mono text-[11px] tracking-[0.24em] text-[#ff0033] uppercase">
-            Прайс-лист / тарифы
-          </p>
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
-            {[
-              {
-                name: "LANDING PAGE",
-                price: "от 8 000 ₽",
-                meta: "Срок: 3-5 дней",
-                desc: "Адаптив, SEO, анимации",
-              },
-              {
-                name: "MULTI-PAGE SITE",
-                price: "от 18 000 ₽",
-                meta: "Срок: 5-10 дней",
-                desc: "Структура, админка, скорость",
-              },
-              {
-                name: "CUSTOM REACT / NEXT.JS",
-                price: "от 25 000 ₽",
-                meta: "Срок: индивидуально",
-                desc: "Ультра-интерактив, SPA, высокая производительность",
-              },
-            ].map((plan) => (
-              <article
-                key={plan.name}
-                className="cyber-grid-bg flex flex-col rounded-xl border border-[#ff0033]/25 bg-[#161616] p-5 transition duration-300 hover:-translate-y-1 hover:border-[#ff0033]/70 hover:shadow-[0_0_28px_rgba(255,0,51,0.28)]"
-              >
-                <p className="m-0 font-mono text-[11px] tracking-[0.18em] text-[#ff0033]">
-                  {plan.name}
-                </p>
-                <p className="mt-3 mb-1 text-2xl font-medium">{plan.price}</p>
-                <p className="m-0 text-xs text-white/45">{plan.meta}</p>
-                <p className="mt-3 mb-6 min-h-12 text-sm leading-6 text-[#cfcfcf]">
-                  {plan.desc}
-                </p>
-                <a
-                  href="https://t.me/StanislavBabichch"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="mt-auto block border border-[#ff0033] px-4 py-2 text-center font-mono text-xs tracking-[0.16em] text-[#ff0033] no-underline transition-colors hover:bg-[#ff0033] hover:text-white"
-                >
-                  ЗАКАЗАТЬ / ORDER
-                </a>
-              </article>
-            ))}
-          </div>
-        </section>
-
-        <section
           id="requirements"
           className="mb-16 border border-[#ff0033]/20 bg-[#161616]/80 p-6 transition duration-300 hover:border-[#ff0033]/50 hover:shadow-[0_0_28px_rgba(255,0,51,0.16)]"
         >
           <h2 className="mt-0 mb-5 font-mono text-sm tracking-[0.08em] text-[#ff0033] sm:text-base">
-            REQUIREMENTS // ЧТО ТРЕБУЕТСЯ ДЛЯ СТАРТА ПРОЕКТА
+            PROJECT REQUIREMENTS // WHAT WE NEED TO START
           </h2>
           <ul className="m-0 mb-5 list-none space-y-3 p-0 text-sm leading-6 text-[#cfcfcf]">
             <li className="border border-white/10 px-3 py-3">
-              📁 Техническое задание (ТЗ) или подробное описание вашей идеи/логики
-              сайта.
+              📄 Technical specifications (PRD/Brief) or a detailed description
+              of your idea/website logic.
             </li>
             <li className="border border-white/10 px-3 py-3">
-              🎨 Макет в Figma / Sketch / Photoshop (при наличии). Если дизайна
-              нет - разработаем с нуля.
+              🎨 Figma / Sketch / Adobe XD layout (if available). If you
+              don&apos;t have a design, we can create it from scratch.
             </li>
             <li className="border border-white/10 px-3 py-3">
-              🖼 Текстовые материалы, логотипы, медиа-файлы и брендинг, которые
-              необходимо разместить.
+              🔤 Text content, logos, media files, and branding materials to be
+              placed on the site.
             </li>
             <li className="border border-white/10 px-3 py-3">
-              🔑 Доступы к хостингу/домену (потребуются на этапе деплоя).
+              🔑 Hosting/domain access credentials (required at the deployment
+              stage).
             </li>
           </ul>
           <p className="m-0 border-l-2 border-[#ff0033] pl-3 text-sm leading-6 text-[#e8e8e8]">
-            ⚠️ Если у вас нет готового ТЗ или макета - не переживайте. Напишите
-            мне, мы детально обсудим все нюансы вашего проекта, сформируем
-            требования и подберем оптимальное техническое решение.
+            ⚠️ If you don&apos;t have a ready brief or design, no worries! Send
+            me a message, and we will discuss all the details directly in the
+            chat, map out the requirements, and choose the best technical
+            solution for your project.
           </p>
         </section>
 
@@ -253,14 +169,6 @@ export function CyberSite({ onSwitchTheme }: { onSwitchTheme: () => void }) {
           Stanislav Babich - full-stack web development
         </footer>
       </div>
-
-      <button
-        type="button"
-        onClick={onSwitchTheme}
-        className="fixed right-4 bottom-4 z-50 border border-white/20 bg-black/70 px-3 py-2 font-mono text-[11px] tracking-wider text-white/70 uppercase backdrop-blur transition hover:border-[#ff0033] hover:text-[#ff0033]"
-      >
-        Switch mode
-      </button>
     </div>
   );
 }

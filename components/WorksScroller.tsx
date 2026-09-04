@@ -26,8 +26,8 @@ function colsAt(width: number) {
 export function WorksScroller({
   children,
   cardCount,
-  cardSelector = ".win95-window",
-  className = "custom-scrollbar",
+  cardSelector = ".cyber-card",
+  className = "cyber-scrollbar",
 }: {
   children: ReactNode;
   cardCount: number;
