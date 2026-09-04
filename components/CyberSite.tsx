@@ -35,25 +35,26 @@ export function CyberSite() {
       <CyberStage />
 
       <div className="relative z-10 mx-auto min-h-screen w-full max-w-6xl px-5 py-10 sm:px-8">
-        <header className="mb-14">
-          <p className="mb-3 font-mono text-[11px] tracking-[0.32em] text-[#ff0033] uppercase">
-            ACCESS GRANTED
-          </p>
-          <h1
-            className="m-0 max-w-4xl text-3xl leading-[1.15] font-semibold tracking-tight sm:text-5xl"
-            style={{ textShadow: "0 0 24px rgba(255,0,51,0.45)" }}
-          >
-            STANISLAV BABICH // FULL-STACK WEB DEVELOPMENT
-          </h1>
-          <div className="mt-5">
-            <TypeLine text={SUBLINE} />
-          </div>
-        </header>
+        <div className="mb-12">
+          <header className="mb-14">
+            <p className="mb-3 font-mono text-[11px] tracking-[0.32em] text-[#ff0033] uppercase">
+              ACCESS GRANTED
+            </p>
+            <h1
+              className="m-0 max-w-4xl text-3xl leading-[1.15] font-semibold tracking-tight sm:text-5xl"
+              style={{ textShadow: "0 0 24px rgba(255,0,51,0.45)" }}
+            >
+              STANISLAV BABICH // FULL-STACK WEB DEVELOPMENT
+            </h1>
+            <div className="mt-5">
+              <TypeLine text={SUBLINE} />
+            </div>
+          </header>
 
-        <section
-          id="about"
-          className="mb-12 grid gap-8 border border-[#ff0033]/20 bg-[#161616]/80 p-6 shadow-[inset_0_0_40px_rgba(255,0,51,0.08)] lg:grid-cols-[240px_1fr]"
-        >
+          <section
+            id="about"
+            className="grid gap-8 border border-[#ff0033]/20 bg-[#161616]/80 p-6 shadow-[inset_0_0_40px_rgba(255,0,51,0.08)] lg:grid-cols-[240px_1fr]"
+          >
           <div className="relative overflow-hidden border border-white/15">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
@@ -98,6 +99,7 @@ export function CyberSite() {
             </div>
           </div>
         </section>
+        </div>
 
         <section className="mb-12">
           <p className="mb-4 font-mono text-[11px] tracking-[0.24em] text-[#ff0033] uppercase">
